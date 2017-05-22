@@ -1,5 +1,5 @@
 # ridero-test
 
-Запуск
-npm install
+## Запуск
+npm install  
 npm run devserver
