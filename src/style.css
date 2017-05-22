@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.book-list {
+  padding: 20px;
+}
+.book-list__item {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+  padding: 10px;
+  position: relative;
+  background-color: #fff;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.book-list__item__file {
+  width: 145px;
+  height: 205px;
+  position: absolute;
+  top: 10px;
+  left: 28px;
+  opacity: 0;
+  cursor: pointer;
+}
+.book-list__item__title {
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #a29f9f;
+  height: 26px;
+  padding: 0 10px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.book-list__item__author {
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #a29f9f;
+  height: 26px;
+  padding: 0 10px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.book-list__item__remove {
+  background: #fb1414;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  padding: 2px 10px;
+  font-size: 16px;
+  font-family: sans-serif;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  z-index: 1;
+}
+.add-book {
+  padding: 20px;
+  background: #fff;
+  margin: 0 20px 20px 20px;
+  width: 600px;
+}
+.add-book h3 {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 10px;
+  border-bottom: 2px solid #009688;
+  padding-bottom: 10px;
+}
+.add-book__title,
+.add-book .add-book__author {
+  padding: 5px 0;
+}
+.add-book__title input,
+.add-book .add-book__author input {
+  margin-top: 10px;
+  width: 300px;
+  border: 1px solid #a29f9f;
+  height: 26px;
+  padding: 0 10px;
+  border-radius: 2px;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-left: 20px;
+}
+.add-book__title label,
+.add-book .add-book__author label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+.add-book__image {
+  padding: 5px 0;
+}
+.add-book__image label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+.add-book__image input {
+  margin-left: 20px;
+}
+.add-book__button {
+  background-color: #009688;
+  color: #fff;
+  border: 0;
+  font-size: 16px;
+  padding: 5px 15px;
+  border-radius: 4px;
+  margin-left: 110px;
+  margin-top: 15px;
+}

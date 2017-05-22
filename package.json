@@ -1,0 +1,36 @@
+{
+  "name": "ridero-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "devserver": "webpack-dev-server --debug --devtool eval-source-map --output-pathinfo --watch --colors --inline --content-base public --port 8090 --host localhost"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "jquery": "*",
+    "react": "15.3.1",
+    "react-dom": "15.3.1",
+    "react-redux": "5.0.5",
+    "react-router": "^4.0.0",
+    "react-router-dom": "^4.0.0",
+    "redux": "3.6.0",
+    "style-loader": "^0.18.0",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^3.0.1"
+  },
+  "devDependencies": {
+    "autoprefixer-loader": "*",
+    "babel": "5.x",
+    "babel-loader": "5.*",
+    "css-loader": "*",
+    "file-loader": "^0.11.1",
+    "json-loader": "^0.5.4",
+    "url-loader": "^0.5.6",
+    "webpack": "^2.3.3",
+    "webpack-dev-server": "^2.4.2"
+  }
+}
